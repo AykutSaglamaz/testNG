@@ -1,0 +1,10 @@
+I have ExcelUtil class in my project. I have reusable methods
+ I use to automate some of the functionaries, such as login functionality, reservation functionality, check out functionality.
+
+I basically use excel automation
+ WHEN I NEED ESPECIALLY MULTIPLE DATA IN MY AUTOMATION SCRIPT.
+  For example, when I test login functionality with different user profiles, then I get the data from excel.
+
+We can do Data Driver Testing with Excel. Data Driven Testing is when we get multiple data to test the functionality. We sent multiple data and check if all test cases passed with the different data.
+We can basically control the test scenarios by just changing the test data. For example, in login functionality, we have different type of data(admin, manager, customer service, end user profiles). When I get the different profiles, the test outcome will change. This is an example of DDT.
+We use excel to protect the test data as well. When I have the data in an excel file, then the data is not get lost. As long as I have the excel file, then I can access the data.
