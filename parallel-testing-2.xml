@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Caretta-Test-Suite" parallel="methods" thread-count="3">
+    <test name="class-set-1">
+        <classes>
+            <class name="com.techproed.paralleltesting.ManagerLogin"></class>
+            <class name="com.techproed.paralleltesting.SearchItem"></class>
+            <class name="com.techproed.paralleltesting.WebTables"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Caretta-Test-Suite">
+    <test name="smoke-test">
+        <packages>
+            <package name="com.techproed.tests.smoketest"></package>
+            <package name="com.techproed.dataprovider"></package>
+        </packages>
+    </test>
+</suite>
+        <!--RUNNING SPECIFIC PACKAGES
+        suite  > test > packages >  package
+        TestNG is used for creating customized test execution xml files
+        We can run this xml file when we want to execute our smoke test
+        In my smoke test there are around 12 test classes
+        It takes about 15 mins to complete the test execution
+        -login test with different profiles(admin, manager, customer service, end user)
+        -a few end to end testings: reservation with correct profiles, add payment, and checkout
+        -I run smoke test every morning and share the report with the team
+
+   We can run multiple package by adding new package path
+   -This file will run everything
+        -->

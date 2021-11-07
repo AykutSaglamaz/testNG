@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Caretta-Test-Suite">
+    <test name="smoke-test">
+        <groups>
+            <run>
+<!--@Test(groups="regression-group-1")-->
+                <include name="regression-group-1"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.techproed.tests"></package>
+        </packages>
+    </test>
+</suite>
+<!--Run only regression group 1 from the WebTables and TestNGAnnotations class-->

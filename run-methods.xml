@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Caretta-Test-Suite">
+<test name="test-set-1">
+    <classes>
+        <class name="com.techproed.tests.Day13_WebTables">
+            <methods>
+<!--Rin only printRows and printCells from Day13_WebTables-->
+                <include name="printRows"></include>
+                <include name="printCells"></include>
+            </methods>
+        </class>
+        <class name="com.techproed.tests.smoketest.Day12_C3_NegativeLoginTest">
+            <methods>
+ <!--Run ONLY  invalidID from Day12_NegativeLoginTest-->
+                <include name="invalidID"></include>
+            </methods>
+        </class>
+        <class name="com.techproed.tests.Day10_C1_TestNGAnnotation">
+            <methods>
+<!-- Run all except test4 from Day10_TestNGAnnotation-->
+                <exclude name="test4"></exclude>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
+<!--This class runs 3 method only:
+                       <methods>
+                            <include name="printRows"></include>
+                        </methods>
+                        <methods>
+                            <include name="printCells"></include>
+                        </methods>
+                        <methods>
+                            <include name="invalidID"></include>
+                        </methods>
+                        Run all tests but test4 form Day10_TestNGAnnotations
+                         <methods>
+                            <exclude name="test4"></exclude>
+                        </methods>
+        -->

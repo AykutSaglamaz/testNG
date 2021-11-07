@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Caretta-Test-Suite">
+
+    <test name="class=set-1">
+        <classes>
+            <class name="com.techproed.tests.Day10_C1_TestNGAnnotation"></class>
+            <class name="com.techproed.excelautomation.Day14_ReadExcel"></class>
+            <class name="com.techproed.tests.Day11_C2_FirstConfigTest"></class>
+        </classes>
+    </test>
+
+    <test name="class-set-2">
+        <classes>
+            <class name="com.techproed.tests.Day12_C1_TestAddressLoginTest"></class>
+        </classes>
+    </test>
+
+</suite>
