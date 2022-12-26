@@ -1,5 +1,5 @@
 I have ExcelUtil class in my project. I have reusable methods
- I use to automate some of the functionaries, such as login functionality, reservation functionality, check out functionality.
+ I use to automate some of the functionaties, such as login functionality, reservation functionality, check out functionality.
 
 I basically use excel automation
  WHEN I NEED ESPECIALLY MULTIPLE DATA IN MY AUTOMATION SCRIPT.

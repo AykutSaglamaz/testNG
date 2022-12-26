@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5ebae35-9ef2-4363-94c9-2875eb0be1f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Note29.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/extentreports/ExtentReports1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/techproed/extentreports/ExtentReports2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Note14.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/my_project_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/my_project_report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,26 +26,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="21BPuKcaAgEVd2Ti9qgPGGGD6RC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ExtentReports2.extentReportTest1">
     <configuration name="ExtentReports1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG-framework" />
       <extension name="coverage">
@@ -63,8 +59,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExtentReports2.extentReportTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techproed.extentreports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techproed.extentreports" />
+      <option name="MAIN_CLASS_NAME" value="com.techproed.extentreports.ExtentReports2" />
+      <option name="METHOD_NAME" value="extentReportTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExtentReports2.extentReportTest1" />
         <item itemvalue="TestNG.ExtentReports1" />
       </list>
     </recent_temporary>
@@ -90,5 +105,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
