@@ -131,7 +131,7 @@ public class Day14_ReadExcel {
         System.out.println(excelUtil.getCellData(8,0));//Germany
 
         //Find all column names
-        System.out.println(excelUtil.getColumnsNames());//[COUNTRY-R0C0, CAPITAL-R0C1]
+        System.out.println(excelUtil.getColumnsNames());//[Ulke-R0C0, Baskent-R0C1]
 
     }
 }
